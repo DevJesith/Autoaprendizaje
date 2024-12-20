@@ -1,1 +1,3 @@
 # Autoaprendizaje
+
+En este repositorio se pondra todos los ejercicios que pueda hacer en los cursos de Coursera, como Python, JS, HTML, CSS, etc... 
