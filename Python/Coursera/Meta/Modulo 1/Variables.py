@@ -28,10 +28,10 @@
 
 # Como se elimina una variable
 
-a = 10
+    # a = 10
 
-print(a)
+    # print(a)
 
-del a 
+    # del a 
 
-print(a)
+    # print(a)
