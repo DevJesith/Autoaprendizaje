@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <form id="myForm">
+        <label for="c1">Tick this box</label>
+        <input type="checkbox" id="c1"> <br>
+        <input type="button" onclick="checkTicked()" value="Check if ticket">
+    </form> -->
+
+    <!-- Las interacciones del usuario con las casillas de verificación pueden ser rastreadas y almacenadas en bases de datos.
+
+    Cada envío generará una nueva fila (entrada) en la tabla. Ejecute el código y complete el formulario un par de veces para ver cómo funciona -->
+
+    <h2>Registration Form</h2>
+
+    <form id="myForm" onsubmit="processFormData(); return false;">
+        <label for="name">Enter email:</label>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="age">Enter password:</label>
+        <input type="password" name="pass" id="pass"><br>
+
+        <input type="checkbox" name="subscribe" id="subscribe">
+        <label for="subscribe">Subscribe to our newsletter</label> <br>
+
+        <input type="submit">
+    </form>
+
+    <div id="table">
+        <h2>Database simulation</h2>
+        <table id="dataTable">
+            <tr>
+                <th>email</th>
+                <th>password</th>
+                <th>isSuscribed</th>
+            </tr>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada</title>
+    <!-- <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #welcomeMessage{
+            color: navy;
+            font-size: 24px;
+            margin-bottom: 0;
+        }
+
+        #userName{
+            color: maroon;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style> -->
+
+    <style>
+        #table{
+            background-color: #525252;
+            padding: 20px;
+            color: white;
+        }
+
+        #dataTable{
+            width: 60%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            color: white;
+        }
+
+        th,td{
+            border: 1px solid #dddddd;
+        }
+
+        th{
+            background-color: #494949;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+        }
+        
+        h2{
+            text-align: center;
+        }
+        </style>
+<script src="entrada.js"></script>
+</head>
+<body id="body">
+
+    <!-- La información proporcionada por el usuario puede ser muy valiosa para su negocio.
+
+    La función prompt() solicita al usuario una entrada. -->
+
+    <!-- <button onclick="prompt()">Click to enter your name</button> -->
+
+    <!-- ----------------------------- -->
+
+    <!-- <p id="welcomeMessage">Welcome back</p>
+    <p id="userName"></p> -->
+
+    
+    <!-- Formulario -->
+
+    <h3>Ensure you enter valid color names.</h3>
+    
+    <form id="myForm">
+        <label for="background">Enter background color:</label>
+        <input type="text" id="background" value="grey"><br><br>
+        <label for="color">Enter text color:</label> <br>
+        <input type="text" id="color" value="white"> <br><br>
+        <input type="button" onclick="changeStyle()" value="Change">
+    </form>
+
+    
+    
+</body>
+</html>

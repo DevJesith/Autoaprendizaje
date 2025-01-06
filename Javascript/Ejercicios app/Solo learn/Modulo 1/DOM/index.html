@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+Para modificar un elemento en el DOM de una página, primero necesitas acceder a él. document.getElementById() se utiliza para acceder a elementos en una página con un ID específico.
+
+Este script modificará el texto en el elemento de párrafo cuando se cargue la página -->
+
+    <!-- <h3>Changin "Paragraph text" to "Update text"</h3>
+    <p id="p1">Paragraph</p>
+
+    <script>
+        document.getElementById("p1").textContent = "Hola";
+    </script> -->
+
+    <!-- <br>
+
+    <h3 id="h1">Original Header</h3>
+    <p id="p1">Original Paragraph</p>
+
+    <script>
+        document.getElementById("h1").textContent = "Update header";
+        document.getElementById("p1").textContent = "Update paragraph";
+        
+    </script> -->
+
+    <!-- 
+Puedes usar variables para almacenar información sobre los elementos HTML
+
+Este script almacena el contenido del texto del elemento en una variable llamada c. Una vez que se ha almacenado la información, puede ser utilizada en el código. -->
+
+    <!-- <p id="t1">paragraph text that is accessed</p>
+    
+    <script>
+        let c = document.getElementById("t1").textContent;
+        console.log(c);
+        alert(c);
+    </script> -->
+
+    <!-- <p id="p3">NEW</p>
+    <script>
+        let paragraph3 = document.getElementById("p3");
+        alert(paragraph3.textContent);
+        paragraph3 = "New content";
+    </script> -->
+
+    <!-- Puedes modificar elementos cambiando las propiedades DOM en el código JS.
+
+    Ejecuta el código para ver un ejemplo con la propiedad DOM .style -->
+
+    <p id="p1">This is a paragraph that will be styled</p>
+
+    <script>
+        let p = document.getElementById("p1");
+        p.style.color = "blue";
+        p.style.border = "solid";
+    </script>
+
+    
+</body>
+</html>
