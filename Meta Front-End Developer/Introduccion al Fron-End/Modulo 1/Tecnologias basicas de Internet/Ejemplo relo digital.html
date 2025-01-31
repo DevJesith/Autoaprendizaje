@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Digital </title>
+
+    <style>
+        #clock {
+    font-size: 48px;
+    color: blue;
+    }
+    </style>
+</head>
+<body>
+    
+    <div id="clock">00:00:00</div>
+
+    <script>
+        setInterval(() => {
+        const now = new Date();
+        document.getElementById('clock').innerText = now.toLocaleTimeString();
+    }, 1000);
+    </script>
+</body>
+</html>
